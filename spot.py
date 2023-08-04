@@ -186,7 +186,7 @@ def main():
   c_list = ["Red", "Blue", "Yellow", "Black", "White"]
   RGB =[(255,69,0)[::-1], (135,206,250)[::-1], (255,244,244)[::-1], (0,0,0)[::-1], (255,244,244)[::-1]]
   #牧場の画像，犬の画像
-  image_list = [ ('./drive/MyDrive/ref1.png', './drive/MyDrive/tar1.png') ,('./drive/MyDrive/5ref1.png','./drive/MyDrive/5tar1.png'),('./drive/MyDrive/cat1.png','./drive/MyDrive/cat2.png')]
+  image_list = [ ('./drive/MyDrive/ref1.png', './drive/MyDrive/tar1.png') ,('./drive/MyDrive/5ref1.png','./drive/MyDrive/5tar1.png'),('./drive/MyDrive/cat1.PNG','./drive/MyDrive/cat2.PNG')]
   #image_list = glob.glob("./drive/MyDrive/*")
   if 'flag' not in st.session_state:
     st.session_state["flag"] = False
